@@ -1,34 +1,43 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
+# osx
 .DS_Store
-*.pem
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# project management
+/__external
+notes*.md
+notes*.org
+todo*.md
+todo*.org
+standup*.md
+standup*.org
 
-# local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# emacs
+.dir-locals.el
 
-# vercel
-.vercel
+# vscode
+.vscode
+
+# gtags
+GPATH
+GRTAGS
+GTAGS
+
+# ruby config
+.ruby-version
+
+# todo file
+# (negate in project if needed): !todo*.*
+todo*.*
+
+# env
+.env
+.env.development
+
+# javascript stuff
+build/
+node_modules/
+
+# lighthouse-ci
+.lighthouseci/
+
+# Local Netlify folder
+.netlify
