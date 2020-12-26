@@ -8,10 +8,10 @@ export const Layout = ({
     lamaName,
     slug,
 }: {
-    children: React.Component
+    children: any
     backPath?: string
-    lamaName: string
-    slug: string
+    lamaName?: string
+    slug?: string
 }) => {
     return (
         <div>

@@ -3,11 +3,11 @@ import { Layout } from './layout'
 import { useForm } from 'react-hook-form'
 
 const EventDetail = (props: { isNew?: boolean }) => {
-    const { isNew } = props
     const { register, handleSubmit, watch, errors } = useForm()
     const [onlineTeaching, setOnlineTeaching] = React.useState(false)
     const onSubmit = (data) => console.log(data)
 
+    // @ts-ignore
     return (
         <Layout backPath="/bhakhang-rinpoche">
             <form onSubmit={handleSubmit(onSubmit)}>

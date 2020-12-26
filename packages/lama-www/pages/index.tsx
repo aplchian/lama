@@ -281,10 +281,10 @@ export default function Home() {
                             {/*        )}*/}
                             {/*    </div>*/}
                             {/*</div>*/}
-                            <div class="bg-white lg:min-w-0 lg:flex-1">
-                                <div class="pl-4 pr-6 pt-4 pb-4 border-b border-t border-gray-200 sm:pl-6 lg:pl-8 xl:pl-6 xl:pt-6 xl:border-t-0">
-                                    <div class="flex items-center">
-                                        <h1 class="flex-1 text-lg font-medium">
+                            <div className="bg-white lg:min-w-0 lg:flex-1">
+                                <div className="pl-4 pr-6 pt-4 pb-4 border-b border-t border-gray-200 sm:pl-6 lg:pl-8 xl:pl-6 xl:pt-6 xl:border-t-0">
+                                    <div className="flex items-center">
+                                        <h1 className="flex-1 text-lg font-medium">
                                             Events
                                         </h1>
                                         {/*<div class="relative">*/}
