@@ -1,0 +1,58 @@
+type Lama {
+    name: String!
+    slug: String!
+    teachings: [Teaching] @relation
+}
+
+enum MEDIATYPE {
+    AUDIO
+    VIDEO
+}
+
+enum TranscriptionStatus {
+    NOT_STARTED
+    IN_PROGRESS
+    IN_REVIEW
+    COMPLETE
+}
+
+type User {
+    name: String!
+    transcriptions: [Transcription] @relation(name: "transcriber")
+    reviews: [Transcription] @relation(name: "reviewer")
+}
+
+type Teaching {
+    name: String!
+    lama: Lama!
+    archiveNumber: String
+    date: Date!
+    virtual: Boolean!
+    city: String
+    state: String
+    country: String
+    notes: String
+    media: [Media] @relation
+    transcription: Transcription
+}
+
+type Transcription {
+    status: TranscriptionStatus!
+    url: String
+    transcriber: [User] @relation(name: "transcriber")
+    reviewer: [User] @relation(name: "reviewer")
+}
+
+type Media {
+    url: String!
+    type: MEDIATYPE!
+    description: String
+    teaching: Teaching!
+}
+
+type Query {
+    allLamas: [Lama!]
+    lamaByName(name: String!): [Lama!]
+    allTeachings: [Teaching]
+    lamaBySlug(slug: String!): [Lama!]
+}

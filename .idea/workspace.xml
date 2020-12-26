@@ -1,19 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0f05900-7a66-40ce-afb0-f38c12c4995a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/packages/lama-cms/schemas/teachings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/lama-cms/schemas/transcriber.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    <list default="true" id="f0f05900-7a66-40ce-afb0-f38c12c4995a" name="Default Changelist" comment="add">
+      <change afterPath="$PROJECT_DIR$/packages/lama-www/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/lama-www/components/event-detail.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/lama-www/components/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/lama-www/pages/[teacher]/[teaching].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/lama-www/pages/[teacher]/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/lama-www/pages/[teacher]/new.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/lama-www/schema.gql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/lama-www/utils/graphql-client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-cms/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-cms/config/.checksums" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-cms/config/@sanity/data-aspects.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-cms/config/@sanity/default-layout.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-cms/config/@sanity/default-login.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-cms/config/@sanity/form-builder.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-cms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-cms/plugins/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-cms/sanity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-cms/schemas/blockContent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-cms/schemas/lama.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-cms/schemas/schema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-cms/schemas/teachings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-cms/schemas/transcriber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-cms/static/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-cms/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-cms/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-cms/vercel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-cms/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-www/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lama-www/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-www/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lama-www/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-www/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lama-www/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-www/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lama-www/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-www/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lama-www/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lama-www/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lama-www/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/lama-www/pages/[teacher]" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -43,8 +65,16 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Linters" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/packages/lama-www/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/lama-www/pages/[teacher]" />
+      <recent name="$PROJECT_DIR$/packages/lama-www" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -54,12 +84,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607793783736</updated>
-      <workItem from="1607793787760" duration="8616000" />
+      <workItem from="1607793787760" duration="18477000" />
+      <workItem from="1608129285987" duration="18386000" />
     </task>
+    <task id="LOCAL-00001" summary="add vercel config">
+      <created>1607808645266</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607808645267</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add sanity cli">
+      <created>1607808771578</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607808771579</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add vercel config" />
+    <MESSAGE value="add sanity cli" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sanity cli" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
